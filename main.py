@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os 
-from typing import list, dict, Optional
+from typing import List, Dict, Optional
 
 def load_env_variables():
     load_dotenv()
@@ -10,6 +10,6 @@ def load_env_variables():
 def main(): 
     vars=load_env_variables()
 
-if __name__== "__main__"
-main()
+if __name__== "__main__":
+    main()
 
